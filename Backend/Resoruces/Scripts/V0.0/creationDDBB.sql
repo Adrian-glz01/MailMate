@@ -14,7 +14,7 @@ CREATE TABLE Users (
 GO
 
 -- Habilitar login SQL Server
-CREATE LOGIN mailmate_user WITH PASSWORD = 'mailmateSECPASS123@';
-CREATE USER mailmate_user FOR LOGIN mailmate_user;
-ALTER ROLE db_datareader ADD MEMBER mailmate_user;
-ALTER ROLE db_datawriter ADD MEMBER mailmate_user;
+CREATE LOGIN mailm_user WITH PASSWORD = 'mailmateSECPASS123!';
+CREATE USER mailm_user FOR LOGIN mailm_user;
+ALTER ROLE db_datareader ADD MEMBER mailm_user;
+ALTER ROLE db_datawriter ADD MEMBER mailm_user;
